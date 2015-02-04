@@ -1,2 +1,2 @@
 # lattesparser
-http://www.gliffy.com/go/publish/6961545
+http://www.gliffy.com/go/publish/7140617
