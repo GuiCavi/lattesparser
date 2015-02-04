@@ -27,8 +27,11 @@ function printXml(node,ident_level){
         for(var k = 0; k < ident_level; k++){
             ident_string +="  ";
         }
-        console.log(ident_string+node[i].tagName);
-        // console.log(ident_level);
+        console.log(ident_string+"+"+node[i].tagName);
+        // console.log(ident_string+node[i].attributes.length);
+        for(var index = 0; index < node[i].attributes.length; index++){
+            console.log(ident_string+"-"+node[i].attributes[index].name+" : "+node[i].attributes[index].value);
+        }
         printXml(node[i].childNodes,ident_level);
         i++;
     }
