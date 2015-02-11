@@ -1,0 +1,37 @@
+<?php
+/*
+// JSON PARA PARSE
+{
+    "curriculo": [
+        {
+            "CURRICULO-VITAE": {
+                "-ATR1": "data1",
+                "-ATR2": "data2",
+                "TAG2": {
+                    "-ATR3": "data3",
+                    "TAG3": {
+                        "-ATR4": "data4",
+                        "TAG4": {
+                            "-ATR5": "data5",
+                            "-ATR6": "data6"
+                        }
+                    },
+                    "TAG4": {
+                        "-ATR4": "data5",
+                        "TAG5": {
+                            "-ATR7": "data7",
+                            "-ATR8": "data8"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+*/
+/*==================================*/
+
+echo $_POST["json_curriculo"];
+print_r($_POST["json_curriculo"]);
+
+?>
